@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:wheat
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 3em;
+  color: darkred;
+  text-transform: uppercase;
+}
+
+.jogadores{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 480px;
+  margin: 0 auto;
+  padding: 35px;
+  color: darkred;
+  border: none;
+}
+
+.player{
+  border-bottom: 5px solid red;
+}
+
+.tabuleiro{
+  width: 430px;
+  height: 430px;
+  margin:  0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkred;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.campo{
+  width: 140px;
+  height: 140px;
+  color: black;
+  background-color:wheat;
+}
+
+#c1,#c2,#c3{
+  margin-top: -6px;
+}
+#c7,#c8,#c9{
+  margin-bottom: -6px;
+}
+
+.reiniciar{
+  background-color: darkred;
+  color: white;
+  outline: none;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: #c70000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.reiniciar:active{
+  background-color: #c70000;
+}
+
+.campo{
+  font-size: 150px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+#jogadorX,#jogadorO{
+  text-transform: capitalize;
+}
